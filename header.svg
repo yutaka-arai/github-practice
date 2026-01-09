@@ -1,0 +1,21 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background rectangle -->
+  <rect width="800" height="200" fill="url(#headerGradient)" />
+  
+  <!-- Main title text -->
+  <text x="400" y="120" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="white" text-anchor="middle">ともすた</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="50" r="20" fill="rgba(255,255,255,0.2)" />
+  <circle cx="700" cy="150" r="30" fill="rgba(255,255,255,0.2)" />
+  <circle cx="150" cy="170" r="15" fill="rgba(255,255,255,0.15)" />
+  <circle cx="650" cy="40" r="25" fill="rgba(255,255,255,0.15)" />
+</svg>
